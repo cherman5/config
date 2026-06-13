@@ -1,5 +1,4 @@
 server:
-  server:
     port: ${PORT:${SERVERS_PORT:0}}
 
 spring:
