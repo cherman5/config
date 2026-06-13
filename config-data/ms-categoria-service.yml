@@ -1,5 +1,5 @@
 server:
-  port: ${PORT:${SERVERS_PORT:0}}
+  port: 8081
 
 spring:
   application:
@@ -31,7 +31,7 @@ eureka:
   instance:
     prefer-ip-address: true
     ip-address: 127.0.0.1
-    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    instance-id: ${spring.application.name}:${server.port}
 
 resilience4j.circuitbreaker:
   instances:
