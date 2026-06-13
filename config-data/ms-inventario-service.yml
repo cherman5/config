@@ -34,7 +34,7 @@ feign:
         connectTimeout: 5000
         readTimeout: 5000
   producto:
-    url: http://localhost:8082/api/productos
+    url: http://localhost:8080/api/productos
 
 eureka:
   client:

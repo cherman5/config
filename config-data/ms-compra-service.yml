@@ -34,11 +34,11 @@ feign:
         connectTimeout: 5000
         readTimeout: 5000
   proveedor:
-    url: http://localhost:8087/api/proveedores
+    url: http://localhost:8080/api/proveedores
   producto:
-    url: http://localhost:8082
+    url: http://localhost:8080
   inventario:
-    url: http://localhost:8083
+    url: http://localhost:8080
 
 eureka:
   client:
